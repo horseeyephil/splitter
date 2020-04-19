@@ -1,0 +1,21 @@
+- date: 2020-04-01
+  desc: groceries
+  total: 100
+  members: philip, lora
+  ex:
+    - desc: cheese / philip
+      total: 10
+    - desc: wings / philip, kurt 
+      total: 10
+  tags: groceries, household
+  loc: Lincoln Market
+  
+- date: 2020-04-01
+  desc: Union Market
+  total: 300
+  members: philip, lora
+  ex:
+    - desc: wings / philip, kurt 
+      total: 10
+  tags: groceries, cleaning
+  loc: Lincoln Market

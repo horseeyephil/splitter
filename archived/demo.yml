@@ -1,0 +1,24 @@
+# DEMO FILE
+# this is a demo file
+# copy this key structure and put it "period.yml" at the directory root
+- date: 2020-04-01
+  desc: groceries
+  total: 100 #required
+  members: philip, lora #required if "defaultShare" is not specified in settings.yml
+  ex:
+    - desc: cheese / philip # <tag> / (backslash) [<members>] (comma separated)
+      total: 10
+    - desc: wings / philip, kurt 
+      total: 10
+  tags: groceries, household
+  loc: Lincoln Market 
+
+- date: 2020-04-01
+  desc: Union Market
+  total: 300 #required
+  members: philip, lora
+  ex:
+    - desc: wings / philip, kurt 
+      total: 10
+  tags: groceries, cleaning, party
+  loc: Lincoln Market

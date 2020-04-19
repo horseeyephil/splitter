@@ -1,0 +1,14 @@
+# uncomment to set default
+# defaultShare:
+#   - philip
+#   - lora
+users:
+  - philip
+  - lora
+  - kurt
+  - nichole
+aliases:
+  p: philip
+  l: lora
+  k: kurt
+  n: nichole
