@@ -3,7 +3,8 @@
 # copy this key structure and put it "period.yml" at the directory root
 - date: 2020-04-01
   desc: groceries
-  total: 100 #required
+  total: 100 #REQUIRED
+  paidBy: philip # REQUIRED
   members: philip, lora #required if "defaultShare" is not specified in settings.yml
   ex:
     - desc: cheese / philip # <tag> / (backslash) [<members>] (comma separated)
@@ -15,7 +16,8 @@
 
 - date: 2020-04-01
   desc: Union Market
-  total: 300 #required
+  total: 300 #REQUIRED
+  paidBy: lora # REQUIRED
   members: philip, lora
   ex:
     - desc: wings / philip, kurt 

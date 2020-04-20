@@ -9,7 +9,7 @@ const mergeIndividual = (a,b) => {
   return a
 }
 
-const mergeTotals = (...totalObjs) => totalObjs.reduce(mergeIndividual)
+const mergeTotals = (...totalObjs) => totalObjs.reduce(mergeIndividual, {})
 
 // experimental  
 // const mergeTotals = (mapCB) => 
