@@ -1,7 +1,7 @@
 ## Use the app!
 
 1. Keep track of your shared payments in `period.yml`
-  - For now, only the `total` key and `members` key are required for each row.
+  - For now, only the `total` key, `paidBy`, and `members` key are required for each row.
   - (`members` can be omitted if you set `defaultShared` in `settings.yml`)
 
 2. `npm start` to see your results!
